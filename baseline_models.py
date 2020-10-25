@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter(action='ignore', category=DeprecationWarning)
 
-# load data
+# load datattttt
 dataset = datasets.load_breast_cancer()
 
 df_cancer = pd.DataFrame(np.c_[dataset['data'], dataset['target']], columns = np.append(dataset['feature_names'], ['target']))
