@@ -17,7 +17,7 @@ dataset = datasets.load_breast_cancer()
 df_cancer = pd.DataFrame(np.c_[dataset['data'], dataset['target']], columns = np.append(dataset['feature_names'], ['target']))
 df_cancer.head()
 
-#orange benign, blue maligant
+#orange benign, blue maligant test
 
 plt.figure(figsize = (20,20))
 sns.pairplot(df_cancer, hue = 'target', vars = ['mean radius', 'mean texture', 'mean perimeter', 'mean area', 'mean smoothness'])
