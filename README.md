@@ -5,7 +5,7 @@ This is my Master Thesis implementation.
 ## Machine Learning Algorithms  
 ML algorithms used:  
 **1. SVC**  
-**2. RandoForestClassifier**  
+**2. RandomForestClassifier**  
 **3. KNearestNeighbors**  
 
 ## Optimization Algorithms  
